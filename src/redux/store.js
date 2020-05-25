@@ -1,7 +1,8 @@
 import { createStore, combineReducers } from "redux";
-import editorReduser from './reducers';
+import {EditorReduser} from './editor-reducer';
+
 let reducers = combineReducers({
-    datas: editorReduser,
+    dataPage: EditorReduser,
 });
 
 let store = createStore(reducers);
