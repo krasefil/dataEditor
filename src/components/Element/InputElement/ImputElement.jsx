@@ -1,8 +1,7 @@
 import React from 'react';
 import style from '../Element/Element.module.css';
 
-const ElementInput = (props) => {
-    console.log(props);
+const InputElement = (props) => {
     return (
         <div className={style.item}>
             <div className={style.item__list}>
@@ -43,4 +42,4 @@ const ElementInput = (props) => {
     )
 }
 
-export default ElementInput;
+export default InputElement;
